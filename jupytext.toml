@@ -1,0 +1,6 @@
+# Pareia cada notebooks/*.py com um .ipynb local.
+formats = "ipynb,py:percent"
+
+# Sem metadados de kernel/versao no .py (nada que varie de maquina para maquina)
+notebook_metadata_filter = "-all"
+cell_metadata_filter = "-all"
